@@ -19,3 +19,13 @@ python3 client.py 0
 # Join a session
 python3 client.py <session id given by the host client>
 ```
+
+## Building a docker image
+For the session server:
+```
+docker build --target main -t session-main:latest .
+```
+And for a test client:
+```
+docker build --target client -t session-client:latest .
+```
