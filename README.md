@@ -2,6 +2,8 @@
 
 This is a Python-based server used to help establish peer-to-peer communication between two clients.
 
+This repository has been deprecated in favor of [ScummVM's new session server](https://github.com/scummvm/scummvm-sites/tree/multiplayer).
+
 # Setup
 ```
 # Install depdendencies
